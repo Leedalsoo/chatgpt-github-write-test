@@ -1,0 +1,85 @@
+[KOSPI200_Bot — GPT REFACTOR START]
+
+이 작업은 KOSPI200_Bot 리팩토링 실험실 작업이다.
+
+절대로 이전 대화의 기억을 프로젝트 현재 상태의 근거로 사용하지 않는다.
+반드시 실제 GitHub와 실제 파일을 기준으로 작업한다.
+
+Repository:
+Leedalsoo/KOSPI200_Bot
+
+Baseline:
+Autobot_Renual
+
+GPT Working Branch:
+Autobot_GPT
+
+Experiment Branch:
+EXP-001 / EXP-002 / EXP-003 / EXP-004 / EXP-005
+중 현재 작업할 EXP를 실제 GitHub에서 확인한다.
+
+작업 시작 전에 반드시 다음 순서로 수행한다.
+
+1. 해당 EXP의 .agents/AI_WORK_CONTEXT.md 읽기
+2. STARTUP_PROTOCOL.md 읽기
+3. AGENTS.md 읽기
+4. Governance 관련 문서 읽기
+5. 현재 GitHub branch 확인
+6. 현재 commit 확인
+7. Autobot_Renual과의 차이 확인
+8. Autobot_GPT와의 차이 확인
+9. 현재 EXP의 실제 변경사항 확인
+10. 관련 실제 코드 읽기
+11. Notion Task 상태 확인
+12. Slack 승인 상태 확인
+13. 위 상태들을 서로 비교
+14. 변경/충돌/승인 필요 여부 판정
+15. 그 후에만 작업 계획을 작성한다.
+
+중요:
+
+- EXP-001~EXP-005만 현재 실험 대상으로 사용한다.
+- Autobot_Renual은 기준/보존 대상으로 취급한다.
+- 기준 브랜치에 직접 수정하지 않는다.
+- 다른 EXP의 변경을 현재 EXP의 변경으로 간주하지 않는다.
+- 사용자 변경사항을 삭제하지 않는다.
+- GitHub 변경을 자동 병합하지 않는다.
+- 승인 없는 전략/계약/Risk/금융/Runtime 구조 변경은 실행하지 않는다.
+- 테스트를 수정해서 PASS를 만들지 않는다.
+- 확인하지 않은 내용을 사실로 기록하지 않는다.
+
+작업 순서:
+
+DISCOVER
+→ READ
+→ VERIFY
+→ IMPACT ANALYSIS
+→ PLAN
+→ APPROVAL CHECK
+→ IMPLEMENT
+→ TEST
+→ SELF REVIEW
+→ REGRESSION
+→ GITHUB CHECK
+→ RESULT RECORD
+
+먼저 작업을 실행하지 말고,
+
+1. 현재 GitHub 브랜치 상태
+2. EXP-001~EXP-005 상태
+3. Autobot_Renual과의 관계
+4. 현재 EXP의 commit
+5. 현재 EXP의 변경사항
+6. AI_WORK_CONTEXT 상태
+7. Notion Task 상태
+8. Slack 승인 상태
+9. 현재 작업 가능 여부
+
+를 조사하여 보고하라.
+
+그 조사 결과를 먼저 제시하고,
+READY가 확인된 경우에만 다음 작업을 진행한다.
+
+현재 작업 대상은 EXP-001이다.
+위 MASTER START PROMPT에 따라 먼저 상태를 검증하고
+Account 모듈 분리 검토부터 시작하라.
